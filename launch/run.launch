@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="reto_final" type="control.py" name="Control" />
+	<node pkg="reto_final" type="line_follower.py" name="LineFollower" />
+    <node pkg="reto_final" type="state_machine.py" name="StateMachine" />
+</launch>
