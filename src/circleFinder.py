@@ -35,8 +35,8 @@ class circleFinder:
                 except:
                     None 
 
-            imshow('edges', blur)
-            cv2.waitKey(1)
+            #imshow('edges', blur)
+            #cv2.waitKey(1)
 
            
             
